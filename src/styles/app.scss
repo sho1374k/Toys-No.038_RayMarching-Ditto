@@ -1,0 +1,16 @@
+@use "./global/app" as *;
+
+html,
+body {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  height: 100svh;
+  background: #e7d7fc !important;
+}
+
+#sketch {
+  width: 100vw;
+  height: 100vh;
+  height: 100svh;
+}
