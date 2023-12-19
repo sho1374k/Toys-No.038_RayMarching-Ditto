@@ -230,7 +230,6 @@ vec2 sceneSDF(vec3 p){
     mix(0.0,PI * 2.0,uProgress1)
   );
 
-
   float sphere = sphereSDF(p, 0.8);
   float body = mix(createBody(p1), sphere, uProgress1);
   float eye = createEye(p1);
